@@ -1,0 +1,186 @@
+[
+  {
+    "trackingNumber": "AF-2024-00123",
+    "sender": "Lagos, Nigeria",
+    "destination": "London, UK",
+    "service": "Air Freight",
+    "weight": "245 kg",
+    "status": "in-transit",
+    "estimatedDelivery": "May 24, 2026",
+    "steps": [
+      {
+        "label": "Shipment Picked Up",
+        "location": "Lagos, Nigeria",
+        "date": "May 18, 2026",
+        "time": "09:30 AM",
+        "done": true
+      },
+      {
+        "label": "Departed Origin",
+        "location": "Murtala Muhammed Airport, Lagos",
+        "date": "May 19, 2026",
+        "time": "02:15 AM",
+        "done": true
+      },
+      {
+        "label": "Arrived Hub",
+        "location": "Dubai International Airport, UAE",
+        "date": "May 20, 2026",
+        "time": "11:45 AM",
+        "done": true
+      },
+      {
+        "label": "Customs Clearance",
+        "location": "Heathrow Airport, London",
+        "date": "May 21, 2026",
+        "time": "08:00 AM",
+        "done": true
+      },
+      {
+        "label": "Out for Delivery",
+        "location": "London Distribution Centre",
+        "date": "May 24, 2026",
+        "time": "Pending",
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "location": "London, UK",
+        "date": "May 24, 2026",
+        "time": "Pending",
+        "done": false
+      }
+    ]
+  },
+  {
+    "trackingNumber": "AF-2024-00456",
+    "sender": "Shanghai, China",
+    "destination": "New York, USA",
+    "service": "Sea Freight",
+    "weight": "12,400 kg",
+    "status": "delivered",
+    "estimatedDelivery": "May 20, 2026",
+    "steps": [
+      {
+        "label": "Shipment Picked Up",
+        "location": "Shanghai, China",
+        "date": "May 1, 2026",
+        "time": "10:00 AM",
+        "done": true
+      },
+      {
+        "label": "Departed Origin",
+        "location": "Port of Shanghai",
+        "date": "May 3, 2026",
+        "time": "06:00 AM",
+        "done": true
+      },
+      {
+        "label": "In Transit",
+        "location": "Pacific Ocean",
+        "date": "May 10, 2026",
+        "time": "All Day",
+        "done": true
+      },
+      {
+        "label": "Arrived Port",
+        "location": "Port of New York, USA",
+        "date": "May 18, 2026",
+        "time": "03:30 PM",
+        "done": true
+      },
+      {
+        "label": "Customs Clearance",
+        "location": "New York Customs",
+        "date": "May 19, 2026",
+        "time": "09:00 AM",
+        "done": true
+      },
+      {
+        "label": "Delivered",
+        "location": "New York, USA",
+        "date": "May 20, 2026",
+        "time": "02:45 PM",
+        "done": true
+      }
+    ]
+  },
+  {
+    "trackingNumber": "AF-2024-00789",
+    "sender": "Dubai, UAE",
+    "destination": "Nairobi, Kenya",
+    "service": "Road Freight",
+    "weight": "3,200 kg",
+    "status": "pending",
+    "estimatedDelivery": "May 28, 2026",
+    "steps": [
+      {
+        "label": "Shipment Booked",
+        "location": "Dubai, UAE",
+        "date": "May 22, 2026",
+        "time": "11:00 AM",
+        "done": true
+      },
+      {
+        "label": "Pickup Scheduled",
+        "location": "Dubai Logistics City",
+        "date": "May 23, 2026",
+        "time": "Pending",
+        "done": false
+      },
+      {
+        "label": "In Transit",
+        "location": "En Route",
+        "date": "May 24, 2026",
+        "time": "Pending",
+        "done": false
+      },
+      {
+        "label": "Customs Clearance",
+        "location": "Nairobi, Kenya",
+        "date": "May 27, 2026",
+        "time": "Pending",
+        "done": false
+      },
+      {
+        "label": "Out for Delivery",
+        "location": "Nairobi Distribution",
+        "date": "May 28, 2026",
+        "time": "Pending",
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "location": "Nairobi, Kenya",
+        "date": "May 28, 2026",
+        "time": "Pending",
+        "done": false
+      }
+    ]
+  },
+  {
+    "trackingNumber": "AF-2026-00001",
+    "service": "Air Freight",
+    "sender": "Abuja, Nigeria",
+    "destination": "Paris, France",
+    "weight": "150 kg",
+    "estimatedDelivery": "June 15, 2026",
+    "status": "in-transit",
+    "steps": [
+      {
+        "label": "",
+        "location": "",
+        "date": "",
+        "time": "Pending",
+        "done": false
+      },
+      {
+        "label": "",
+        "location": "",
+        "date": "",
+        "time": "Pending",
+        "done": false
+      }
+    ]
+  }
+]

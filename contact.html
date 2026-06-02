@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Aurum Freight International</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo.png" alt="Aurum Freight International" class="logo-img"/>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="index.html#tracking" class="nav-cta">Track Shipment</a>
+      <div class="hamburger" id="hamburger">
+        <i class='bx bx-menu'></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <p class="hero-tag">Get In Touch</p>
+      <h1>Contact <span class="gold">Aurum Freight</span></h1>
+      <p>Our logistics experts are ready to handle your shipment needs.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <div class="contact-container">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <p class="section-tag">Reach Us</p>
+        <h2>Let's Move Your <span class="gold">Cargo</span></h2>
+        <p class="contact-intro">Whether you need a quote, have a question or want to discuss a logistics partnership — we're here 24/7.</p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <i class='bx bx-phone'></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (800) AURUM-FRT</p>
+              <p>+1 (800) 287-8637</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class='bx bx-envelope'></i>
+            <div>
+              <h4>Email</h4>
+              <p>info@aurumfreight.com</p>
+              <p>support@aurumfreight.com</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class='bx bx-map'></i>
+            <div>
+              <h4>Global Headquarters</h4>
+              <p>Dubai International Logistics City</p>
+              <p>Dubai, United Arab Emirates</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class='bx bx-time'></i>
+            <div>
+              <h4>Support Hours</h4>
+              <p>24 Hours / 7 Days a Week</p>
+              <p>365 Days a Year</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links" style="margin-top: 36px;">
+          <a href="#"><i class='bx bxl-linkedin'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-wrapper">
+        <h3>Send Us a Message</h3>
+        <p>Fill out the form and we'll get back to you within 24 hours.</p>
+
+        <div class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="John" />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Doe" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="john@company.com" />
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+1 234 567 8900" />
+          </div>
+          <div class="form-group">
+            <label>Service Needed</label>
+            <select>
+              <option value="">Select a service</option>
+              <option>Sea Freight</option>
+              <option>Air Freight</option>
+              <option>Road Freight</option>
+              <option>Warehousing</option>
+              <option>General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Tell us about your shipment needs..." rows="5"></textarea>
+          </div>
+          <button class="btn-submit" id="submitBtn">
+            Send Message <i class='bx bx-send'></i>
+          </button>
+          <p class="form-success" id="formSuccess">
+            <i class='bx bx-check-circle'></i> Message sent! We'll be in touch within 24 hours.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- OFFICES SECTION -->
+  <section class="offices-section">
+    <div class="section-header">
+      <p class="section-tag">Where We Operate</p>
+      <h2>Our Global <span class="gold">Offices</span></h2>
+    </div>
+    <div class="offices-grid">
+      <div class="office-card">
+        <i class='bx bx-map-pin'></i>
+        <h3>Dubai, UAE</h3>
+        <p>Global Headquarters</p>
+        <span>Middle East & Africa Hub</span>
+      </div>
+      <div class="office-card">
+        <i class='bx bx-map-pin'></i>
+        <h3>London, UK</h3>
+        <p>European Operations</p>
+        <span>Europe & West Africa Hub</span>
+      </div>
+      <div class="office-card">
+        <i class='bx bx-map-pin'></i>
+        <h3>Singapore</h3>
+        <p>Asia Pacific Office</p>
+        <span>Asia & Oceania Hub</span>
+      </div>
+      <div class="office-card">
+        <i class='bx bx-map-pin'></i>
+        <h3>New York, USA</h3>
+        <p>Americas Office</p>
+        <span>North & South America Hub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <img src="images/logo.png" alt="Aurum Freight International" class="logo-img"/>
+        </div>
+        <p>Your trusted partner in global logistics. Moving cargo across every border, every ocean, every sky.</p>
+        <div class="social-links">
+          <a href="#"><i class='bx bxl-linkedin'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#sea">Sea Freight</a></li>
+          <li><a href="services.html#air">Air Freight</a></li>
+          <li><a href="services.html#road">Road Freight</a></li>
+          <li><a href="services.html#warehouse">Warehousing</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class='bx bx-phone'></i> +1 (800) AURUM-FRT</p>
+        <p><i class='bx bx-envelope'></i> info@aurumfreight.com</p>
+        <p><i class='bx bx-map'></i> Global HQ, Dubai, UAE</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Aurum Freight International. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

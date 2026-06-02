@@ -1,0 +1,274 @@
+/* ================================
+   CONTACT PAGE
+================================ */
+
+.contact-section {
+  padding: 100px 30px;
+  background: var(--black);
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.contact-info .section-tag {
+  display: block;
+  margin-bottom: 14px;
+}
+
+.contact-info h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 800;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.contact-intro {
+  color: var(--grey);
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 36px;
+}
+
+.info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 20px;
+  background: var(--dark-2);
+  border: 1px solid rgba(201, 168, 76, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.info-card:hover {
+  border-color: rgba(201, 168, 76, 0.4);
+}
+
+.info-card i {
+  font-size: 28px;
+  color: var(--gold);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.info-card h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+
+.info-card p {
+  color: var(--grey);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Form */
+.contact-form-wrapper {
+  background: var(--dark-2);
+  border: 1px solid rgba(201, 168, 76, 0.15);
+  padding: 50px 40px;
+}
+
+.contact-form-wrapper h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.contact-form-wrapper > p {
+  color: var(--grey);
+  font-size: 14px;
+  margin-bottom: 36px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background: var(--black);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--white);
+  padding: 14px 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 100%;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--gold);
+}
+
+.form-group select option {
+  background: var(--black);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.btn-submit {
+  width: 100%;
+  background: var(--gold);
+  color: var(--black);
+  border: none;
+  padding: 16px 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+}
+
+.form-success {
+  display: none;
+  color: var(--gold);
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.form-success i {
+  font-size: 20px;
+}
+
+/* Offices */
+.offices-section {
+  padding: 100px 30px;
+  background: var(--dark-2);
+}
+
+.offices-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.office-card {
+  background: var(--black);
+  border: 1px solid rgba(201, 168, 76, 0.1);
+  padding: 36px 28px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.office-card:hover {
+  border-color: rgba(201, 168, 76, 0.4);
+  transform: translateY(-6px);
+}
+
+.office-card i {
+  font-size: 36px;
+  color: var(--gold);
+  margin-bottom: 16px;
+  display: block;
+}
+
+.office-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.office-card p {
+  color: var(--grey);
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.office-card span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .offices-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-wrapper {
+    padding: 30px 20px;
+  }
+
+  .offices-grid {
+    grid-template-columns: 1fr;
+  }
+}
