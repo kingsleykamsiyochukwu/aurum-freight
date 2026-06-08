@@ -118,8 +118,7 @@ if (trackBtnEl && trackInputEl) {
     trackBtnEl.textContent = 'Searching...';
 
     try {
-      const response = await fetch(`http://localhost:3000/api/track/${number}`);
-
+    const response = await fetch(`https://aurum-freight-production.up.railway.app/api/track/${number}`);
       if (!response.ok) {
         const notFound = document.createElement('div');
         notFound.className = 'tracking-result not-found';
